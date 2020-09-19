@@ -1,0 +1,21 @@
+{
+  "name": "indieweb",
+  "version": "0.1.0",
+  "description": "My personal site",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "indieweb"
+  ],
+  "author": "Josh Mock <josh@joshmock.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.756.0"
+  }
+}

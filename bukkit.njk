@@ -1,0 +1,10 @@
+---
+title: mah bukkit
+layout: blank.njk
+---
+
+<ul>
+{% for item in bukkit %}
+  <li><a href="{{ item | url }}">{{ item }}</li>
+{% endfor %}
+</ul>
