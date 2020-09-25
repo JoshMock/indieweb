@@ -1,0 +1,24 @@
+@use 'normalize';
+
+body {
+  font-family: Georgia, serif;
+}
+
+header, main, footer {
+  width: 75%;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  font-size: 3rem;
+  padding: 10px;
+  border-bottom: double #EEE;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  border-top: double #EEE;
+}
