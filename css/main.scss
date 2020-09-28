@@ -16,15 +16,25 @@ header {
   font-weight: 700;
   font-size: 5rem;
   padding: 10px;
-  border-bottom: double #EEE;
+  border-bottom: 0.5rem solid #666;
 }
 
 footer {
   text-align: center;
-  font-size: 0.8rem;
-  border-top: double #EEE;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border-top: 0.5rem solid #666;
 }
 
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
+}
+
+a {
+  color: #111;
+
+  &:hover {
+    color: #666;
+    text-decoration: none;
+  }
 }
