@@ -1,7 +1,7 @@
 @use 'normalize';
 
 body {
-  font-family: Georgia, serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 header, main, footer {
@@ -12,7 +12,9 @@ header, main, footer {
 
 header {
   text-align: center;
-  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 5rem;
   padding: 10px;
   border-bottom: double #EEE;
 }
@@ -21,4 +23,8 @@ footer {
   text-align: center;
   font-size: 0.8rem;
   border-top: double #EEE;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
 }
