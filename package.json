@@ -13,10 +13,12 @@
   "author": "Josh Mock <josh@joshmock.com>",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0"
+    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy-plugin-rss": "^1.0.9"
   },
   "dependencies": {
     "aws-sdk": "^2.756.0",
-    "eleventy-plugin-sass": "^1.1.1"
+    "eleventy-plugin-sass": "^1.1.1",
+    "luxon": "^1.25.0"
   }
 }

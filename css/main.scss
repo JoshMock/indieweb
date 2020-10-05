@@ -1,7 +1,14 @@
 @use 'normalize';
 
+$phoneWidth: 450px;
+
 body {
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+
+  @media (max-width: $phoneWidth) {
+    font-size: 1.3em;
+  }
 }
 
 header, main, footer {
@@ -15,8 +22,44 @@ header {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 5rem;
-  padding: 10px;
+  padding-top: 30px;
   border-bottom: 0.5rem solid #666;
+
+  @media (max-width: $phoneWidth) {
+    font-size: 3rem;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  nav {
+    font-size: 1.2rem;
+    padding: 30px 0 10px 0;
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+
+      @media (min-width: $phoneWidth) {
+        display: flex;
+      }
+
+      li {
+        padding: 10px;
+
+        @media (min-width: $phoneWidth) {
+          flex-grow: 4;
+        }
+      }
+    }
+  }
+}
+
+main {
+  line-height: 1.7em;
 }
 
 footer {
@@ -36,5 +79,26 @@ a {
   &:hover {
     color: #666;
     text-decoration: none;
+  }
+}
+
+article {
+  h1 {
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+p {
+  &.publish-date {
+    color: #888;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 700;
   }
 }

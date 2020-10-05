@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="{{ title | default("Josh Mock") }}">
+    <meta name="description" content="{{ description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://joshmock.com{{ page.url }}">
+    <meta property="og:title" content="{{ title | default("Josh Mock") }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://joshmock.com{{ page.url }}">
+    <meta property="twitter:title" content="{{ title | default("Josh Mock") }}">
+    <meta property="twitter:description" content="{{ description }}">
+    <title>
+      {% if title %}
+        {{ title }} // Josh Mock
+      {% else %}
+        Josh Mock
+      {% endif %}
+    </title>
+    <link rel="stylesheet" type="text/css" href="{{ '/css/main.css' | url }}" media="screen"/>
+    <link rel="alternate" type="application/atom+xml" href="/feed.xml" />
+  </head>
+  <body>
+    <header>
+      <a href="/">Josh Mock is online</a>
+      <nav>
+        <ul>
+          <li><a href="https://www.wxnafm.org/shows/loveless-in-nashville" rel="me">Radio show</a></li>
+          <li><a href="https://lateral-am.bandcamp.com" rel="me">Bandcamp</a></li>
+          <li><a href="https://twitter.com/joshmock" rel="me">Twitter</a></li>
+          <li><a href="https://instagram.com/joshmock" rel="me">Instagram</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main role="main">
+      {% block content %}{% endblock %}
+    </main>
+    <footer>&copy; Josh Mock 2020</footer>
+  </body>
+</html>

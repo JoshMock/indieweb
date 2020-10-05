@@ -1,32 +1,9 @@
 ---
-title: Josh Mock
 description: JOSH MOCK IS ONLINE
 ---
 
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="{{ title }}">
-    <meta name="description" content="{{ description }}">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://joshmock.com{{ page.url }}">
-    <meta property="og:title" content="{{ title }}">
-    <meta property="og:description" content="{{ description }}">
-    <meta property="twitter:card" content="summary">
-    <meta property="twitter:url" content="https://joshmock.com{{ page.url }}">
-    <meta property="twitter:title" content="{{ title }}">
-    <meta property="twitter:description" content="{{ description }}">
-    <title>{{ title }}</title>
+{% extends "base.njk" %}
 
-    <link rel="stylesheet" type="text/css" href="{{ '/css/main.css' | url }}" media="screen"/>
-  </head>
-  <body>
-    <header>Josh Mock is online</header>
-    <main>
-      {{ content | safe }}
-    </main>
-    <footer>&copy; Josh Mock 2020</footer>
-  </body>
-</html>
+{% block content %}
+{{ content | safe }}
+{% endblock %}
