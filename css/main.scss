@@ -83,6 +83,12 @@ a {
 }
 
 article {
+  border-bottom: 1px solid #CCC;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
   h1 {
     a {
       text-decoration: none;
@@ -92,6 +98,11 @@ article {
       }
     }
   }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
 }
 
 p {
