@@ -7,7 +7,7 @@ body {
   font-size: 1.5em;
 
   @media (max-width: $phoneWidth) {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 }
 
@@ -15,6 +15,10 @@ header, main, footer {
   width: 75%;
   margin: 20px auto;
   padding: 20px;
+
+  @media (max-width: $phoneWidth) {
+    width: 85%;
+  }
 }
 
 header {
