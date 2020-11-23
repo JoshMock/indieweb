@@ -1,5 +1,6 @@
 ---
 title: What am I doing here?
+description: Divesting from social media and owning my own data.
 date: 2020-10-04
 tags: post
 layout: post.njk

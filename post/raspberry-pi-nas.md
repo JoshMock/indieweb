@@ -1,7 +1,7 @@
 ---
 title: Building a NAS with a Raspberry Pi
 date: 2020-11-22
-description: Or: why you maybe shouldn't build your own NAS.
+description: "Or: why you maybe shouldn't build your own NAS."
 tags: post
 layout: post.njk
 ---
