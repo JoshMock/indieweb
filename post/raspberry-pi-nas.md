@@ -37,13 +37,13 @@ I'm still not sure if that last one was a joke.
 
 **Solution:** I bought a pack of ferrite bead sleeves and attached them to all involved USB cables. I also, for unrelated reasons, moved our home wifi to a mesh-based system with multiple wifi repeaters that mesh on the 5Ghz band, significantly increasing our wifi signal redundancy.
 
-### Transferring 20,000 photos over wifi is incredibly slow
+## Transferring 20,000 photos over wifi is incredibly slow
 
 The NAS might be hard-wired to the router, but my laptop is not (wifi transfer rates peak at around 300 Mbps), and Samba isn't exactly zippy, either. For a file or two this is tolerable. When you're moving 20,000 photos, _you can tell_. My Macbook Air spent an entire overnight session attempting to send photos to the NAS and barely put a dent in the work.
 
 **Solution:** For my initial transfer, I ended up putting all the files on a spare external drive and [sneakernetting](https://en.wikipedia.org/wiki/Sneakernet) them over to the NAS. The transfer was done in minutes.
 
-### Always mount external drives on startup
+## Always mount external drives on startup
 
 Editing your `/etc/fstab` can be annoying or nerve wracking if you’ve never done it before, especially when mounting an encrypted drive. If you do it wrong, the machine can get stuck during boot, and you might end up needing to boot from a rescue thumb drive. All very inconvenient for a NAS that's supposed to be headless. This makes it tempting to manually run a script that unlocks encryption and mounts the drive on the rare occasions that the machine needs to restart.
 
