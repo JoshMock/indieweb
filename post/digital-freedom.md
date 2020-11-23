@@ -1,7 +1,7 @@
 ---
 title: Digital freedom
 date: 2020-10-10
-description: Big technology companies are profiting on our private data and alerting our emotions. How do we fix this?
+description: Big technology companies are profiting on our private data and altering our emotions. How do we fix this?
 tags: post
 layout: post.njk
 ---
