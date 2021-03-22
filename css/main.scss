@@ -1,6 +1,7 @@
 @use 'normalize';
 
 $phoneWidth: 450px;
+$maxWidth: 1280px;
 
 body {
   font-family: Helvetica, Arial, sans-serif;
@@ -13,6 +14,7 @@ body {
 
 header, main, footer {
   width: 75%;
+  max-width: $maxWidth;
   margin: 20px auto;
   padding: 20px;
 
