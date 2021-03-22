@@ -2,7 +2,7 @@
 title: Recent inspiration
 date: 2021-03-21
 description: "Links to things that have given me inspiration, revelation or joy lately."
-tags: post, recent-inspiration
+tags: post
 layout: post.njk
 ---
 
