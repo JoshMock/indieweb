@@ -37,7 +37,7 @@ Most of these are easy things that any competent computer user could do. Some of
 
 We all have a part we can play to make the world a better place. I hope mine can be leveraging my skills to help myself and others to escape tech monopolies and move to a more distributed internet where we control our data and the tools we use to stay connected. I'd like to contribute to open source software tools that can make this easier for people, and plan to write more about my ideas and contributions soon.
 
-That's where I'm headed. If you're pointed in the same direction, [send me an email][email] and let's chat.
+That's where I'm headed. If you're pointed in the same direction, [send me a webmention][webmention] or [find me on Twitter][twitter] and let's chat.
 
 [google-wifi]: https://www.theguardian.com/technology/2010/may/15/google-admits-storing-private-data
 [google-nsa]: https://gizmodo.com/how-google-gives-your-information-to-the-nsa-512840958
@@ -53,8 +53,9 @@ That's where I'm headed. If you're pointed in the same direction, [send me an em
 [spotify]: https://www.rollingstone.com/pro/features/spotify-million-artists-royalties-1038408/
 [duck]: https://duckduckgo.com/
 [badger]: https://privacybadger.org/
-[email]: mailto:josh@joshmock.com
+[webmention]: https://webmention.io/joshmock.com/webmention
 [indieweb]: https://indieweb.org/
 [firefox]: https://www.mozilla.org/en-US/firefox/
 [zuck]: https://www.theverge.com/21444203/facebook-leaked-audio-zuckerberg-trump-pandemic-blm
 [social-cooling]: https://www.socialcooling.com/
+[twitter]: https://twitter.com/joshmock
