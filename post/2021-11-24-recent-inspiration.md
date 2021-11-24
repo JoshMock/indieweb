@@ -54,7 +54,7 @@ I'm also pondering requesting a copy of his new book, [_A Bathroom Book for Peop
 
 ## Generating AI art with [NightCafe Studio](https://creator.nightcafe.studio/create)
 
-There are a handful of tutorials for how to set up VQGAN and CLIP&mdash;a combination of machine-learning algorithms that can generate fascinatingly weird images solely from a text promp&mdash;on different computing environments. NightCafe Studio has shouldered the majority of that burden so that you can just think about your sacred prompts.
+There are a handful of tutorials for how to set up VQGAN and CLIP&mdash;a combination of machine-learning algorithms that can generate fascinatingly weird images solely from a text prompt&mdash;on different computing environments. NightCafe Studio has shouldered the majority of that burden so that you can just think about your sacred prompts.
 
 [Here's a tweet thread](https://twitter.com/joshmock/status/1453547340170678272) full of images I've created so far.
 
