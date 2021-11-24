@@ -1,6 +1,6 @@
 ---
 title: Recent inspiration, Thanksgiving edition
-date: 2021-05-29
+date: 2021-11-24
 description: "Links to things that have given me inspiration, revelation or joy lately. Thanksgiving 2021 edition."
 tags: post
 layout: post.njk
