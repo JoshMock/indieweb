@@ -18,7 +18,9 @@
   },
   "dependencies": {
     "aws-sdk": "^2.756.0",
+    "cheerio": "^1.0.0-rc.10",
     "eleventy-plugin-sass": "^1.1.1",
-    "luxon": "^1.25.0"
+    "luxon": "^1.25.0",
+    "node-fetch": "^2.6.6"
   }
 }
