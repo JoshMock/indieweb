@@ -38,7 +38,7 @@ And, later on, a highlight of [ahau.io](https://ahau.io/), a tool to help indige
 
 ## Pubs are not exactly communities
 
-My understanding early on was that SSB pubs (always-online peers) act like communities, where social connections are made and curated conversations are facilitated. In reality, pubs are just there to help posts propagate. Following a pub ensures you receive posts that it knows about; accepting an invite from one ensure it also receives yours. That's it.
+My understanding early on was that SSB pubs (always-online peers) act like communities, where social connections are made and curated conversations are facilitated. In reality, pubs are just there to help posts propagate. Following a pub ensures you receive posts that it knows about; accepting an invite from one ensures it also receives yours. Some pubs are invite-only and have codes of conduct, which seems to mostly be a way to provide some safety through the power of collective blocking.
 
 ## Have at least 1GB of free space available
 
