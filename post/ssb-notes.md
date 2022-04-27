@@ -1,8 +1,9 @@
 ---
 title: Initial notes about SSB
+date: 2022-04-27
 description: Some initial thoughts and tips regarding Secure Scuttlebutt after using it for a few weeks.
 tags: post
-layout: layout.njk
+layout: post.njk
 ---
 
 In light of, you know, the whole internet yelling about this week's Twitter news, I figured I'd write down some ([more](https://joshmock.com/post/scuttlebutt-anecdote/)) thoughts about my experiences with [SSB](https://scuttlebutt.nz/) after using it for the last few weeks as a social media alternative. Just some observations, tips and warnings about things that weren't immediately obvious until I got started.
