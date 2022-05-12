@@ -20,6 +20,8 @@ Every feed is append-only and, being a decentralized protocol, your posts are st
 
 Thinking before you post is a feature!
 
+**Edit:** Soon after posting this it became pretty clear to me that the importance of deleting is essential to a healthy social protocol, whether it is to scrub personal data, remove thoughts we no longer find constructive, or remove embarrassing or rashly-created content. Fortunately, other SSB community members agree and are hopeful that a reasonable solution to edits and deletes is possible.
+
 ## Each device/app is a separate profile (for now)
 
 Since each feed has a unique crypto key, and there are undesirable repercussions to sharing that key across devices, each device is effectively a unique identity. In practice, most folks just link to each of their separate identities in their profile descriptions, but this was a surprise to me.
