@@ -1,10 +1,12 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-const pluginSass = require('eleventy-plugin-sass');
+const pluginSass = require('eleventy-sass');
+const pluginUpgrade = require('@11ty/eleventy-upgrade-help');
 const { DateTime } = require('luxon');
 const fetch = require('node-fetch');
 const cheerio = require('cheerio');
 
 module.exports = (eleventyConfig) => {
+  eleventyConfig.addPlugin(pluginUpgrade);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSass);
 
@@ -19,8 +21,6 @@ module.exports = (eleventyConfig) => {
     const $ = cheerio.load(await resp.text());
     const embed = $('meta[property="og:video"]').attr('content');
     const title = $('meta[property="og:title"]').attr('content');
-    // https://bandcamp.com/EmbeddedPlayer/album=1429273597/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/track=1346034936/transparent=true/
-    // https://bandcamp.com/EmbeddedPlayer/v=2/track=1346034936/size=large/tracklist=false/artwork=small/
     return `<iframe style="border: 0; width: 100%; height: 120px;" src="${embed}/bgcol=ffffff/linkcol=000000/transparent=true/" seamless><a href="${url}">${title}</a></iframe>`
   });
 };
