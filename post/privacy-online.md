@@ -5,7 +5,7 @@ date: 2022-07-02
 tags: post
 layout: post.njk
 ---
-I've come across a few threads this week giving helpful advice, following the reversal of Roe vs. Wade, about to protect yourself and others when getting an abortion or assisting others in doing so. There were many valuable warnings about being careful what you say and do online. Still, the recommendations for covering digital tracks were reduced to a one-liner, like "use a VPN." While VPNs are helpful in some cases, they're only protecting you on one of several layers in the complex, multilayered crepe cake that is the modern consumer tech stack.
+I've come across a few threads this week giving helpful advice, following the reversal of Roe vs. Wade, about how to protect yourself and others when getting an abortion or assisting others in doing so. There were many valuable warnings about being careful what you say and do online. Still, the recommendations for covering digital tracks were reduced to a one-liner, like "use a VPN." While VPNs are helpful in some cases, they're only protecting you on one of several layers in the complex, multilayered crepe cake that is the modern consumer tech stack.
 
 If your goal is to organize online or use technology to coordinate activities that can expose you or others to legal action, it's critical to understand where your data goes and who can see it. [Companies will happily give your data](https://www.nytimes.com/interactive/2019/04/13/us/google-location-tracking-police.html) to [law enforcement](https://reclaimthenet.org/google-repeatedly-hands-over-user-data-to-law-enforcement-without-a-warrant/) without a warrant, so if they have valuable data about you, a warrant or subpoena is a guarantee that they'll give it up.
 
