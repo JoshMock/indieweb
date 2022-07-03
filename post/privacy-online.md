@@ -11,9 +11,9 @@ If your goal is to organize online or use technology to coordinate activities th
 
 Let's talk about where your data goes, who can see what, and how you can fix that.
 
-# Who can see my data?
+## Who can see my data?
 
-## Your internet service provider
+### Your internet service provider
 
 **What it is:** Your home internet and cell phone providers, e.g. AT&T, Comcast, Verizon.
 
@@ -21,7 +21,7 @@ Let's talk about where your data goes, who can see what, and how you can fix tha
 
 **How to fix it:** Use [Tor](https://www.torproject.org/), or a VPN. Just not a free VPN, because those can be fronts making empty claims of protecting privacy while collecting your activity data and selling it. So, preferably a paid one. Consumer Reports [recently published a white paper](https://digital-lab-wp.consumerreports.org/wp-content/uploads/2021/12/VPN-White-Paper.pdf) evaluating many VPN services, including how well they protect your privacy. Don't pick one just because you heard about on a podcast. Additionally, a privacy-friendly DNS service like [1.1.1.1](https://1.1.1.1/dns/) is free, simple to set up, and helps you avoid sending data to your ISP. And _always_ make sure the sites you're visiting always have `https://` in the URL, not `http://`.
 
-## Your web browser
+### Your web browser
 
 **What it is:** The app you use to browse web pages, like Chrome, Safari, Firefox or Edge.
 
@@ -29,7 +29,7 @@ Let's talk about where your data goes, who can see what, and how you can fix tha
 
 **How to fix it:** Use [Tor browser](https://www.torproject.org/) or the [private browsing setting](https://www.howtogeek.com/269265/how-to-enable-private-browsing-on-any-web-browser/) of your preferred browser. Except for Chrome, which has been accused of [collecting data from private browsing sessions](https://www.theverge.com/2021/3/13/22329240/judge-rules-google-5-billion-lawsuit-tracking-chrome-incognito-privacy). (You may notice a pattern here that Google is generally not to be trusted with your data.) 
 
-## Your search engine
+### Your search engine
 **What it is:** The sites you use to search the internet, e.g., Google, Bing, DuckDuckGo. If you're searching social media sites like Facebook and Twitter for specific content, or Amazon for specific products, those count too. I don't know if Amazon sells Plan B, but I'd bet they've seen an uptick in searches for it lately.
 
 **What it can see:** If you're logged in, _even in private browsing mode_, your search engine sees and stores a complete history of everything you search for and every result you click on, and often tracks your activity on those websites as well. If you're logged out, they can make a pretty good guess as to who you are and record that activity too. As mentioned above, even in private browsing mode and logged out, _Google knows_. Even DuckDuckGo, who heavily market themselves as pro-privacy, [got caught sending tracking data to Microsoft](https://thenextweb.com/news/duckduckgo-microsoft-tracking-sparks-backlash).
@@ -38,7 +38,7 @@ Let's talk about where your data goes, who can see what, and how you can fix tha
 
 **Note:** Paywalled search engine options like [Neeva](https://neeva.com/) and [Kagi](https://kagi.com/) market themselves as having no tracking, but since they're paid, you have to be logged in to use them, _and_ they know your identity because you probably paid with a credit card. Proceed with caution.
 
-## Messaging apps
+### Messaging apps
 **What it is:** Every app on your laptop, tablet or phone that you use to communicate with other people, e.g., SMS messaging, Facebook, Twitter, Instagram, WhatsApp, Slack, Discord, Zoom, TikTok, email, multiplayer games, etc.
 
 **What it can see:** Whatever data you put into it. The text of every message, every photo or video, who it's sent to, whether or not they read it. If the data is sent to a central server, which is how most messaging apps work, then anyone with access to those servers can read your data. The only exceptions are a select handful of apps that promise end-to-end encryption (E2EE), ensuring that nobody except you and the person you're sending it to can see the contents. But, even then, [sometimes the encryption is just marketing fluff](https://arstechnica.com/gadgets/2021/09/whatsapp-end-to-end-encrypted-messages-arent-that-private-after-all/), so don't trust it unless experts have verified it. 
@@ -47,7 +47,7 @@ Let's talk about where your data goes, who can see what, and how you can fix tha
 
 **Note:** Be cautious about email in particular. No email provider offers true E2EE unless it's asking for the public encryption key of the recipient you're sending to. Even if they say your email data is encrypted so they can't see it, the minute you send an email to another person, it's stored in two places, and at least one of them is likely not encrypted. So if you _must_ use email, [learn how to encrypt it](https://www.openpgp.org/software/).
 
-## Your physical device (and anyone who has access to it)
+### Your physical device (and anyone who has access to it)
 
 **What is it:** Your phone, tablet or computer. Specifically, the storage drive on that device. And anyone who has physical access to your device.
 
@@ -57,7 +57,7 @@ Let's talk about where your data goes, who can see what, and how you can fix tha
 
 **Note:** Even with full-disk encryption enabled, the key to decrypt and read the data is your unlock code, which is often a facial recognition scan, a fingerprint, or a typed passcode. If anyone with physical access to your device has that info or can force you to provide it, all bets are off. Many recommend not bringing your devices to higher-risk environments like protests, or at least ensuring that they're in airplane mode and face- and fingerprint-scanning are disabled before arriving.
 
-## Anything that touches Google, Facebook or Amazon products
+### Anything that touches Google, Facebook or Amazon products
 
 Most of the above covers this, but I had to drive the point home. **Know who controls the services you use.** 
 
@@ -95,6 +95,6 @@ The following organizations control the apps and services mentioned (and more!) 
   - Twitch
   - Audible
 
-# Please be careful
+## Please be careful
 
 These are scary times, and many governments have been on a war path of oppression against the bodies, rights and private lives of the people they claim to serve. Given the central nature of technology in our lives, governments will leverage it and the companies that control it in any way they can to carry out their agendas. Learning to protect your digital identity and cover your tracks is critical to your safety and privacy, especially if you are a direct target of increasingly common authoritarian agendas.
