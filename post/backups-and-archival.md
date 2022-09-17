@@ -48,7 +48,7 @@ Some downsides to using git-annex:
 
 - You have to be comfortable using Git.
 - Even if you are familiar with Git, there is a learning curve.
-- I have accidentally racked up a small AWS bill (like, under $100, but still) by setting up a cron job that unknowingly (see aforementioned learning curve) made redundant, billable requests to S3 for every file in a repo with thousands of files.
+- I have accidentally racked up a small AWS bill (like, under $100, but still) by setting up a cron job that unknowingly (see aforementioned learning curve) made redundant, billable requests to S3 for every file in a repo with thousands of files. (edit: the most efficient way to only push new files to a special remote without incurring extra costs is `git annex sync my-remote --no-pull --content`)
 - You will find out real quick which tools you use don't play nice with symbolic links. Fortunately, if you have spare storage space, you can just keep a separate [exported copy](https://git-annex.branchable.com/tips/publishing_your_files_to_the_public/) handy for those tools.
 - There's no way to use an iOS device as a git-annex remote. I chatted with the maintainer of [Working Copy](https://workingcopyapp.com/) about it and he confirmed it was not feasible. You can still access them on other networked devices [via the Files app](https://www.howtogeek.com/devops/how-to-connect-to-network-shares-with-the-ios-files-app/), but it's not quite the same.
 
