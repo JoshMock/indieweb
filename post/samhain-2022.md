@@ -1,16 +1,16 @@
-—
+---
 title: Samhain 2022
 description: “A reflection about nature and its place in our lives.”
 date: 2022-10-31
 tags: post
 layout: post.njk
-—
+---
 
 Happy Halloween, and happy [Samhain](https://en.m.wikipedia.org/wiki/Samhain) to everyone except for all involved with the production of [_Halloween II_](https://en.m.wikipedia.org/wiki/Halloween_II_(1981_film)) that failed to catch that Dr. Samuel Loomis completely butchered the pronunciation of the word “Samhain.”
 
 In 2019, my wife Erin and I started having a Samhain feast with a rotating cast of friends each year. I wrote the following and read it aloud at that first dinner, and at every dinner since. I decided to put it here this year as well. Hope you enjoy, and that it resonates with some of you. 
 
-——
+---
 
 The earth is dying. We disagree on exactly how and when it’s happening, but the people who would know best all agree that it is. I’d urge you to reflect on its place in your lives. Much like when we see our loved ones nearing death—a grandparent, a parent, a pet, or a friend with a terminal illness—we feel the urge to draw closer to them. To learn and remember their stories, their recipes, their voices and mannerisms, their smell, their laugh. Perhaps we need to reflect on our relationship with the earth in the same way: to identify the things we love most about it and our relationship with it, both individually and from the perspective of human history. 
 
