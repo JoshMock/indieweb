@@ -1,6 +1,6 @@
 ---
 title: Samhain 2022
-description: “A reflection about nature and its place in our lives.”
+description: A reflection about nature and its place in our lives.
 date: 2022-10-31
 tags: post
 layout: post.njk
