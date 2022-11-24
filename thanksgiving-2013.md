@@ -44,11 +44,17 @@ My mother-in-law just tried to open the wine with a can opener. Happy Thanksgivi
 ---
 
 As Thanksgiving dinner begins:
+
 Erin: “What do you want to eat?”
+
 Brother-in-law: “Something cheesy.”
+
 E: “We made mac & cheese!”
+
 B: “I want grilled cheese.”
+
 E: “I can make you one.”
+
 B: “No, I want a *good* one.”
 
 ## Friday
@@ -66,20 +72,25 @@ Mother-in-law in Whole Foods: “What do you mean there’s no electronics secti
 ---
 
 Me: “Turn right here.”
+
 Mother-in-law: “Left?”
 
 \[five minutes later\]
 
 Me: “Get in the left lane.”
+
 Mother-in-law: “Right lane?”
 
 ## Saturday
 
 Mother-in-law: What’s a Fat Bottom?”
+
 Erin: “It’s a brewery.”
+
 M: “Do you get a fat bottom if you drink one?”
 
 ---
 
 Erin: “Would you eat a pizza if we got one?
+
 Brother-in-law: “As long as it’s normal and not some kind of Nashville hipster pizza.”
