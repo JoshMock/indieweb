@@ -1,5 +1,5 @@
 ---
-title: AGENTS.md as a signal
+title: AGENTS.md as a dark signal
 date: 2026-01-22
 description: "Is an AGENTS.md or CLAUDE.md file in a repo a sign of possibly poor code quality?"
 tags: post
